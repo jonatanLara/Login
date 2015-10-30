@@ -1,0 +1,47 @@
+body{
+	background-color: #b6b6b6;
+	margin: 0;
+	padding: 0;
+}
+
+#Contenedor{
+	/*border:solid green 2px;*/
+	background-color: #f0f0f0;
+	width: 350px;
+	height: 350px;
+	margin: 200px auto;
+	padding: 1em;
+	border-radius: 6px;
+	/*box-shadow: 0 0 2px 5px;*/
+	/*box-shadow: rgba(220,220,220,.65) 3px 3px 10px 5px inset; */
+	box-shadow: 0 0 1em teal;
+}
+h1{
+	color: teal;
+	font-size: 30px;
+	text-align: center;
+	margin: 30px;
+	font-family: "Tahoma","Geneva",sans-serif;
+}
+
+#user, #pass{
+	margin: 0 0 1em 10px;
+	width: 300px;
+	border: 0px;
+	padding: 1em;
+	border-radius: 0px 3px 3px 5px;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 15px;
+}
+#enviar,#registro{
+	padding: 1em;
+	color: white;
+	background: teal;
+	border-radius: 6px;
+	/*font-family: 'Comfortaa', sans-serif;*/
+	width: 120px;
+	margin: 0 0 20px 35px;
+}
+#enviar,#registro:hover{
+	cursor: pointer;
+}
